@@ -139,9 +139,6 @@ img{
     background-color: var(--second-color);
     transition: .5s;
   }
-  .home__img{
-  display:none !important;
-  }
 }
 .nav__item{
   margin-bottom: var(--mb-4);
