@@ -139,6 +139,9 @@ img{
     background-color: var(--second-color);
     transition: .5s;
   }
+  .home__img{
+  display:none !important;
+  }
 }
 .nav__item{
   margin-bottom: var(--mb-4);
@@ -221,6 +224,7 @@ img{
   box-sizing: content-box;
   box-shadow: 20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
   background: #e0e0ee;
+
 }
 .home__img img{
   border-radius: 50%;
@@ -424,13 +428,10 @@ img{
   }
   .home__img{
     position: relative;
-    display: none !important;
     width: 457px;
     bottom: 15%;
   }
-  .home__img img{
-    display: none !important;
-  }
+  
 
   .about__container, .skills__container{
     grid-template-columns: repeat(2,1fr);
